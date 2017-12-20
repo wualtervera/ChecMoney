@@ -1,0 +1,128 @@
+/*------------------------------------------------------------
+App Name :Check Money
+Autor    :wualtervera
+Versio   :1.0
+-------------------------------------------------------------*/
+html,body, main{
+  margin: 0px;
+  height: 100%;
+}
+.no-margin{margin-bottom: 0px !important;}
+.card-panel{min-height: 350px;}
+
+/*Inicio portada*/
+#sidenav-overlay{
+  z-index: 0;
+}
+/*#inicio{background-color: ghostwhite;}*/
+#caracteristicas{background-color:#607d8b; /* #0d47a1*/}
+#checkmoney{background-color: ghostwhite;}
+#inicio, #caracteristicas, #checkmoney{
+  width: 100%;
+  min-height: 600px !important;
+  padding: 5% 2% 5% 2% !important;
+}
+.h1-title-port{font-size: 3.5em;}
+.h1-car{font-size: 2em;}
+.h1-section{font-size: 2.5em;}
+.descripcion{font-size: 1.5em;}
+/*Fin portada*/
+
+/*Inicio login*/
+
+.secion-login{
+  text-align: center;
+}
+.panel-login{
+  width: 450px;
+  height: 450px;
+  display: inline-block;  
+  padding-top: 80px;
+  margin-top: 95px;
+}
+
+.title-login,.btn-login{padding-top: 10px;}
+@media (max-width:700px){
+  .panel-login{
+    width: 300px;
+    height: 400px;
+    margin-top: 70px;
+  }
+  /*Portada*/
+  .brand-logo{font-size: 2em !important;}
+}
+
+@media(max-width: 800px) {
+  .fondo {
+    background: blue;
+  }  
+}
+/*fin login*/
+
+/*Inicio desaboard checkmoney*/
+.patrimonio{
+ margin-left: 15px; 
+}
+.tabs .tab a{color: #ffb74d ;}/*rosa = #f48fb1*/
+.tabs .tab a:hover, .tabs .tab a.active{
+    color: orange;/*pink = #e91e63*/
+}
+.tabs .indicator{background-color: orange;}
+.input-field .prefix.active{color: orange;}
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label, 
+input[type=time]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime]:not(.browser-default):focus:not([readonly])+label,
+input[type=number]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default):focus:not([readonly])+label,
+input[type=text]:not(.browser-default):focus:not([readonly])+label{
+  color: orange;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid orange;
+  box-shadow: 0 1px 0 0 orange;
+}
+.dropdown-content li>a, .dropdown-content li>span{
+  color: orange;
+}
+
+.user{min-height: 110px !important;}
+.btn-floating{
+    z-index: 700;
+    position: fixed;
+}
+.menu{min-height: 300px !important;}
+.icons-nav{margin-right: 1rem;}
+#modal-nueva-cuenta, #modal-nueva-categoria{
+  max-width: 300px !important;
+  max-height: 300px !important;
+}
+.eliminar, .editar{float: right;}
+#modal-edit-user{
+  width: 350px !important;
+  height: 205px !important; 
+}
+#modal-nuevo-movi{
+  max-width: 500px !important;
+  max-height: 700px !important;
+}
+.paddign{
+  padding: 10px 0px 10px 0px !important;
+}
+.row-imput{margin-bottom: 0;}
+.select-dropdown, .input-monto{
+  margin-bottom: 0 !important;
+}
+.buscar{margin-top: 0!important ;}
+.nuevo{padding-top: 30px !important;}
+.buscar{padding-top: 10px !important;}
+.cardpanel-total{
+  min-height: 50px;
+  padding: 2px 2px 2px 2px;
+}
+/*Fin desaboard checkmoney*/
+
